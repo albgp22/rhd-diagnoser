@@ -34,3 +34,8 @@ dependencies:
   repository: https://charts.bitnami.com/bitnami
   condition: rabbitmq.gan.enabled
   alias: rabbitmq-gan
+- name: minio
+  version: 11.2.11
+  repository: https://charts.bitnami.com/bitnami
+  condition: bucket-storage.enabled
+  alias: bucket-storage
