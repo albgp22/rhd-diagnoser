@@ -7,3 +7,6 @@ rabbitmq:
     enabled: true
   gan:
     enabled: true
+
+bucket-storage:
+  enabled: true
